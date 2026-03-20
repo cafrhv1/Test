@@ -21,6 +21,7 @@ IconButton.BorderSizePixel = 0
 IconButton.Active = true
 IconButton.AutoButtonColor = false
 IconButton.Image = ""
+IconButton.ClipsDescendants = true
 IconButton.Parent = ToggleGui
 
 local IconCorner = Instance.new("UICorner")
@@ -36,6 +37,10 @@ Icon.Image = ICON_IMAGE
 Icon.ImageColor3 = Color3.fromRGB(255, 255, 255)
 Icon.ScaleType = Enum.ScaleType.Fit
 Icon.Parent = IconButton
+
+local IconImageCorner = Instance.new("UICorner")
+IconImageCorner.CornerRadius = UDim.new(1, 0)
+IconImageCorner.Parent = Icon
 
 local dragging = false
 local dragInput, mousePos, framePos
