@@ -1,17 +1,4 @@
 
---!nolint
---!nocheck
---!optimize 2
-
---[[
-    @author biggaboy212
-    @name Cascade
-    @description A LuaU UI library based on macOS
-    @license MIT License
-
-    This file was automatically generated with darklua, it is not intended for manual editing.
---]]
-
 _P = {
 	genDate = "2025-07-19T01:40:31.120562100+00:00",
 	cfg = "Debug",
